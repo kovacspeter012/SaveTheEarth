@@ -1,0 +1,29 @@
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.szen-dioxid{
+    background-image: url('img/plains.jpg');
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.megoldas{
+    background-image: url('img/plains.jpg');
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+#solarpanel{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    height: 100px;
+}
