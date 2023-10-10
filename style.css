@@ -1,6 +1,56 @@
+body{
+    background-color: rgb(22, 192, 0);
+    margin: 0;
+}
+
 .container{
     width: 70%;
     margin: 0 auto;
+    background: linear-gradient(0deg, rgba(255, 255, 255, .8), rgba(255, 255, 255, .8));
+}
+h3{
+    margin: 0;
+    float: left;
+    font-size: 25px;
+}
+nav{
+    background-color:black;
+    color: white;
+    margin: 0;
+    overflow: auto;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    float: right;
+    margin: 0;
+}
+nav ul li{
+    margin: 6px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+nav ul li a:hover{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+.container>p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+#logo{
+    float: right;
+    height: 200px;
+    margin: 0 20px;
+    margin-right: 50px;
+    border: 2px solid gray;
 }
 
 .szen-dioxid{
@@ -21,9 +71,27 @@
     background-repeat: no-repeat;
 }
 
-#solarpanel{
+#cutforest{
     position: relative;
     bottom: 100px;
     left: 100px;
     height: 100px;
+}
+
+
+table{
+    background-color: white;
+    padding: 0;
+    border-spacing: 0;
+}
+table tr{
+    margin: 0;
+    padding: 0;
+
+}
+table tr td{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+
 }
