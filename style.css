@@ -6,7 +6,7 @@ body{
 .container{
     width: 70%;
     margin: 0 auto;
-    background: linear-gradient(0deg, rgba(255, 255, 255, .8), rgba(255, 255, 255, .8));
+    background-color: rgb(171, 255, 175);
 }
 h3{
     margin: 0;
@@ -36,7 +36,7 @@ nav ul li a{
 nav ul li a:hover{
     font-size: 20px;
 }
-h1{
+h1, h2{
     text-align: center;
 }
 .container>p{
@@ -53,36 +53,111 @@ h1{
     border: 2px solid gray;
 }
 
-.szen-dioxid{
+.szen-dioxid, .megoldas{
     background-image: url('img/plains.jpg');
     height: 400px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     background-position-x: center;
     background-repeat: no-repeat;
 }
 
-.megoldas{
-    background-image: url('img/plains.jpg');
-    height: 400px;
-    width: 100%;
-    margin: 0 auto;
-    background-position-x: center;
-    background-repeat: no-repeat;
+section{
+    display: flex;
+    margin-left:14.5%;
 }
 
+section article{
+    width: 25%;
+    margin: 0 10px;
+    border: 2px solid black;
+}
+section article img{
+    transition: all 1s;
+}
+section article p{
+    text-align: justify;
+    margin: 10px 30px;
+    color: rgb(171, 255, 175);
+    transition: all 1s;
+}
+article:hover p{
+    color: black;
+}
 #cutforest{
-    position: relative;
-    bottom: 100px;
-    left: 100px;
-    height: 100px;
+    transform: translate(-8px, -230px);
+    height: 150px;
+    width: 200px;
+}
+article:hover #cutforest{
+    transform: translate(0, 0);
+    height: 150px;
+    width: 200px;
+    margin: 0 10px;
+}
+#truck{
+    transform: translate(80px, -200px);
+    height: 80px;
+    width: 150px;
+}
+article:hover #truck{
+    transform: translate(0, 0);
+    height: 150px;
+    width: 200px;
+    margin: 0 10px;
+}
+#coalfactory{
+    transform: translate(-250px, -317px);
+    height: 170px;
+    width: 200px;
+}
+article:hover #coalfactory{
+    transform: translate(0, 0);
+    height: 170px;
+    width: 200px;
+    margin: 0 10px;
 }
 
+#tree{
+    transform: translate(0px, -330px);
+    height: 150px;
+    width: 200px;
+}
+article:hover #tree{
+    transform: translate(0, 0);
+    height: 150px;
+    width: 200px;
+    margin: 0 10px;
+}
+#train{
+    transform: translate(90px, -205px);
+    height: 80px;
+    width: 120px;
+}
+article:hover #train{
+    transform: translate(0, 0);
+    height: 150px;
+    width: 200px;
+    margin: 0 10px;
+}
+#solarpanel{
+    transform: translate(-350px, -180px);
+    height: 150px;
+    width: 200px;
+}
+article:hover #solarpanel{
+    transform: translate(0, 0);
+    height: 150px;
+    width: 200px;
+    margin: 0 10px;
+}
 
 table{
     background-color: white;
     padding: 0;
     border-spacing: 0;
+    float: left;
+    margin: 100px 50px;
 }
 table tr{
     margin: 0;
@@ -92,6 +167,18 @@ table tr{
 table tr td{
     border: 1px solid black;
     margin: 0;
-    padding: 0;
-
+    padding: 5px;
+}
+.kapcsolat{
+    overflow: auto;
+}
+iframe{
+    margin-right: 20px;
+    float: right;
+    background-color: lightgrey;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
 }
